@@ -42,7 +42,7 @@ public class Main {
 
         List<Human> humans = new ArrayList<>();
 
-        // key - name of division (G, J, O...)
+        // key - name of the division (G, J, O...)
         Map<String, Division> divisionMap = new HashMap<>();
 
         try (FileReader fileReader = new FileReader(path);
